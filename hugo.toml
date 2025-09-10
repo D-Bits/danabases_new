@@ -63,7 +63,7 @@ theme = 'stack'
     url        = "/data"    
 
 [pagination]
-  pagerSize = 15
+  pagerSize = 5
   path = "page"
   disableAliases = false
 
