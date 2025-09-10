@@ -9,13 +9,13 @@ theme = 'stack'
     rss = false
     copyright = false
 
-  [[params.social]]
-    url  = "https://github.com/d-bits"
-    icon = "/assets/pics/svgs/github.svg"
+    [[params.footer.social.footerLinks]]
+      url  = "https://github.com/d-bits"
+      icon = "static/pics/svgs/github.svg"
 
-  [[params.social]]
-      url   = "https://linkedin.com/danabases"
-      icon  = "/assets/pics/svgs/linkedin.svg"
+    [[params.footer.social.footerLinks]]
+        url   = "https://linkedin.com/danabases"
+        icon  = "static/pics/svgs/linkedin.svg"
 
 [taxonomies]
     category = "blog"
