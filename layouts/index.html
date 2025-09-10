@@ -1,0 +1,51 @@
+
+{{ define "main" }}
+
+<!--BEGIN CUSTOM STYLES-->
+<style>
+    .custom-home-content {
+        background-color: #155974;
+        color: white;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .custom-home-content .greetings {
+        color: #ffffff;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    
+    .custom-home-content p {
+        color: #ffffff;
+        font-size: 1.2em;
+    }
+
+    .about-text {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: left;
+        line-height: 1.6;
+        color: #fff;
+        font-size: 1.1em;
+    }
+</style>
+<!--END CUSTOM STYLES-->
+
+  <section class="custom-home-content">
+    <!-- <h1 class="greetings">Greetings!</h1> -->
+    <p><em>"I was born not knowing and have had only a little time to change that here and there."</em> -Richard Feynman</p>
+    
+  </section>
+
+  <section class="about-text">
+    <p>
+        Hello and welcome to my website! My name is Dana Lockwood, and I am a programmer and avid technology enthusiast. 
+        While I primarily specialize in implementing a variety of elegant solutions using Python 3 and PostgreSQL, 
+        I also have a background in multiple different languages and technologies, such as C#/.NET Core, HTML, CSS, and more.
+    </p>
+  </section>
+
+{{ end }}
