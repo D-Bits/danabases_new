@@ -2,3 +2,75 @@ baseURL = 'https://danabases.net/'
 languageCode = 'en-us'
 title = 'Danabases'
 theme = 'stack'
+
+# Custom footer
+  [params.footer]
+    trademark = 2025
+    rss = false
+    copyright = false
+
+  [[params.social]]
+    url  = "https://github.com/d-bits"
+    icon = "/assets/pics/svgs/github.svg"
+
+  [[params.social]]
+      url   = "https://linkedin.com/danabases"
+      icon  = "/assets/pics/svgs/linkedin.svg"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Danabases"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+#  [languages.en.params]
+#    subtitle  = "A simple theme for Hugo"
+
+    [languages.en.params.logo]
+      logoText = "Danabases"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+  [[menu.main]]
+    identifier = "skills"
+    name       = "Skills"
+    url        = "/skills"
+  [[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/contact"
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"
+  [[menu.main]]
+    identifier = "data"
+    name       = "Data"
+    url        = "/data"    
+
+[pagination]
+  pagerSize = 15
+  path = "page"
+  disableAliases = false
+
+[markup]
+  [markup.asciidocExt]
+    extensions = ['asciidoctor-html5s', 'asciidoctor-diagram']
+    workingFolderCurrent = true
+    [markup.asciidocExt.attributes]
+      my-attribute-name = 'my value'
+      my-base-url = 'https://example.com/'
