@@ -39,6 +39,17 @@
         border-radius: 50%;
         box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
+
+    .link-list{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .link-list li {
+        margin-right: 15px;
+    }
 </style>
 <!--END CUSTOM STYLES-->
 
@@ -66,6 +77,14 @@
         traveling, craft brewing, and much more! At any rate, I hope that you have enjoyed my website. 
         The contact me directly, feel free to head over to the contact page. For more information on my work and skills, please see the links below.
     </p>
+  </section>
+
+  <section class="about-text">
+    <h2>Elsewhere on the Web</h3>
+        <ul class="link-list">
+            <li><strong></strong><a href="http://linkedin.com/in/danabases" target="_blank"><img src="pics/svgs/linkedin.svg" alt="linkedin-logo" srcset=""></a></li>
+            <li><strong></strong><a href="http://github.com" target="_blank"><img src="pics/svgs/github.svg" alt="github-logo" srcset=""></a></li>
+        </ul>
   </section>
 
 {{ end }}
