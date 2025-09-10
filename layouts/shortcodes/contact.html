@@ -1,0 +1,85 @@
+
+<style>
+    .contact-div {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #contact {
+        display: flex;
+        flex-direction: column;
+        margin: 1em;
+    }
+
+    .fields {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    #message {
+        height: 150px;
+        resize: vertical;
+        border-bottom: 1em;
+    }
+
+    .reach-me-send {
+        background-color: #31799b;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 1em;
+    }
+
+</style>
+
+<div id="contact-div">
+
+    <p class="gpg"><strong><a href="https://keybase.io/dbits/pgp_keys.asc" target="_blank">GPG Public Key &#128272;</a></strong></p>
+
+    <h3 style="text-align: left; margin-top: 5%;">Send Me a Message</h3>
+
+    <form name="contact" id="contact" class="contact-form" data-netlify-recaptcha="true" data-netlify="true" method="POST">
+    
+        <input id="name" class="fields" type="text" name="name" placeholder="Your Name" required>
+  
+        <input id="mail" class="fields" type="text" name="_replyto" placeholder="Your Email" required>
+   
+        <textarea id="message" class="fields" name="message" placeholder="Your message" required></textarea>
+
+        <div data-netlify-recaptcha="true"></div>
+        
+        <button class="reach-me-send" type="submit">Send</button>
+
+    </form>
+
+</div>
+
+<!-- <div id="contact-div">
+
+{{ with .Site.Params.social }}
+    <h3 style="text-align: left; margin-top: 5%;">Connect with Me</h3>
+    <ul style="list-style: none; padding: 0;">
+        {{ range . }}
+            <li style="margin-bottom: 10px;">
+                <a href="{{ .url }}" target="_blank" rel="noopener" style="text-decoration: none; color: #31799b;">
+                    {{ with .icon }}<i class="{{ . }}"></i> {{ end }}
+                    {{ .name }}
+                </a>
+            </li>
+        {{ end }}
+    </ul>
+{{ end }}
+    
+</div> -->
