@@ -1,3 +1,4 @@
 baseURL = 'https://danabases.net/'
 languageCode = 'en-us'
 title = 'Danabases'
+theme = 'stack'
