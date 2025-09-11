@@ -6,7 +6,7 @@ title = 'Data Bank'
 
 #### Sample People
 
-- [**JSON Data**](https://danabases.net/data/people.json)
+- [**JSON Data**](/data/people.json)
 - **Summary:** A sample JSON file of characters from The Simpson's and characteristics about them. 
 - **Total Records**: 6
 - **File Size**: 1KB 
