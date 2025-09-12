@@ -1,0 +1,5 @@
+field,data_type,description
+lname,string,last name
+fname ,string,first name
+street_address,string,home address
+phone,string,phone number

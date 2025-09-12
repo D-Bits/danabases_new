@@ -4,9 +4,11 @@ title = 'Data Bank'
 
 *Here's a personal repository of data sets that are free to use.*
 
-#### Sample People
+## Sample People
 
-- [**JSON Data**](/data/people.json)
-- **Summary:** A sample JSON file of characters from The Simpson's and characteristics about them. 
-- **Total Records**: 6
-- **File Size**: 1KB 
+- [**Data Download**](/data/people.json)
+- **Format**: JSON
+- **Summary:** A sample JSON file of of fictitious individuals, and basic information about them. Generated with Faker. 
+- [**Data Dictionary**](/data/data_dicts/people_data_dict.csv)
+- **Total Records**: 55
+- **File Size**: 13KB 
