@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Long Overdue Reboot
-publishdate: 2025-09-02
+publishdate: 2025-09-15
 draft: false
 tags:
   - other
@@ -20,3 +20,5 @@ In addition to not writing any new blog posts for the past four years, I also ha
 ### The Future and Final Thoughts
 
 I don't know just how much I'm going to be writing new blog posts in the coming months and years. However, I will try to keep at it, and in addition to coding topics, I will also occasionally be uploading recipes for food, and not just software. I also enjoy cooking, and like my source code here, the recipes are free for others to use as they please. 
+
+I also added an easter egg to this website. Hit me up via the contact form if you've found it. 
