@@ -3,3 +3,6 @@
 public/
 *.content
 node_modules/
+
+# Local Netlify folder
+.netlify
