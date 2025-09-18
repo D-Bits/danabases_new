@@ -5,7 +5,7 @@ title: Projects
 Here is a collection of some of the projects that I have worked on. A more complete portfolio of my work can be found on my [GitHub](https://github.com/D-Bits).
 
 
-## [COVID-19 Reports](https://covid19-reporting.herokuapp.com/)
+## [COVID-19 Reports](https://github.com/D-Bits/COVID-19-Tracker)
 ![covid19-tracker](pics/covid19-tracker.jpg)
 
 *A web client used to track, and provide global and U.S. data for the COVID-19 pandemic. Built primarily with Flask and Pandas.*
