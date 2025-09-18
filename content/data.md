@@ -18,5 +18,6 @@ title = 'Data Bank'
 - [**Data Download**](/data/companies.json)
 - **Format**: JSON
 - **Summary**: A sample of fictitious companies, and info about them. Generated with Faker.
+- [**Data Dictionary**](/data/data_dicts/company_data_dict.csv)
 - **Total Records**: 150
 - **File Size**: 24KB 
