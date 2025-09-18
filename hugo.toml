@@ -74,3 +74,6 @@ theme = 'stack'
     [markup.asciidocExt.attributes]
       my-attribute-name = 'my value'
       my-base-url = 'https://example.com/'
+
+relativeURLs = false  
+ 
