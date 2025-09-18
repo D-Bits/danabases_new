@@ -1,0 +1,5 @@
+field,data_type,description
+company_name,string,The name of the company
+street_address,string,The company HQ address
+email,string,Company email
+phone,string,The phone number for the company HQ
