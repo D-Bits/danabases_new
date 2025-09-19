@@ -3,6 +3,10 @@
 public/
 *.content
 node_modules/
+package-lock.json
+.DS_Store
+.vscode/
+.env
 
 # Local Netlify folder
 .netlify
