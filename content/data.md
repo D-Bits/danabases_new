@@ -4,7 +4,9 @@ title = 'Data Bank'
 
 *Here's a personal repository of data sets that are free to use.*
 
-## Mock Data Sets
+## Mock Data 
+
+*A collection of small mock data sets, made with Faker.*
 
 ### Sample People
 
@@ -25,6 +27,8 @@ title = 'Data Bank'
 - **File Size**: 24KB 
 
 ## FCC Broadband Map Data Sets
+
+*Data from the FCC's nationwide broadband map.*
 
 ### FCC Fixed Data
 
